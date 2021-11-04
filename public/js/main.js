@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    $('body').bind('touchmove', function(e){e.preventDefault()})
     // Wait till the browser is ready to render the game (avoids glitches)
     window.requestAnimationFrame(function () {
       var manager = new GameManager(4, KeyboardInputManager, HTMLActuator);
