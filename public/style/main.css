@@ -698,6 +698,7 @@ hr {
     top: 364px;
   }
   .game-container {
+    zoom: 0.56;
     margin-top: 20px;
   }
   .tile {
