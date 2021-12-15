@@ -315,7 +315,7 @@ hr {
 }
 .tile {
   border-radius: 3px;
-  background: #eee4da;
+  /* background: #eee4da; */
   text-align: center;
   font-weight: bold;
   z-index: 10;
@@ -326,32 +326,43 @@ hr {
   -moz-transition-property: top, left;
 }
 .tile.tile-2 {
-  background: #eee4da;
+  /* background: #eee4da; */
+  background-image: url("./patterns/2.png");
+  background-size: contain;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 .tile.tile-4 {
-  background: #eee1c9;
+  /* background: #eee1c9; */
+  color: #f9f6f2;
+  background-image: url("./patterns/4.png");
+  background-size: contain;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 .tile.tile-8 {
-  color: #f9f6f2;
-  background: #f3b27a;
+  /* color: #f9f6f2; */
+  /* background: #f3b27a; */
+  background-image: url("./patterns/8.png");
+  background-size: contain;
 }
 .tile.tile-16 {
-  color: #f9f6f2;
-  background: #f69664;
+  /* background: #f69664; */
+  background-image: url("./patterns/16.png");
+  background-size: contain;
 }
 .tile.tile-32 {
-  color: #f9f6f2;
-  background: #f77c5f;
+  /* background: #f77c5f; */
+  background-image: url("./patterns/32.png");
+  background-size: contain;
 }
 .tile.tile-64 {
-  color: #f9f6f2;
-  background: #fc5b37;
+  /* background: #fc5b37; */
+  background-image: url("./patterns/64.png");
+  background-size: contain;
 }
 .tile.tile-128 {
-  color: #f9f6f2;
-  background: #fa471e;
+  /* background: #fa471e; */
+  background-image: url("./patterns/128.png");
+  background-size: contain;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2380952381), inset 0 0 0 1px rgba(255, 255, 255, 0.1428571429);
   font-size: 45px;
 }
@@ -361,8 +372,9 @@ hr {
   }
 }
 .tile.tile-256 {
-  color: #f9f6f2;
-  background: #fd3b0f;
+  /* background: #fd3b0f; */
+  background-image: url("./patterns/256.png");
+  background-size: contain;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.3174603175), inset 0 0 0 1px rgba(255, 255, 255, 0.1904761905);
   font-size: 45px;
 }
@@ -372,8 +384,9 @@ hr {
   }
 }
 .tile.tile-512 {
-  color: #f9f6f2;
-  background: #4340fc;
+  /* background: #4340fc; */
+  background-image: url("./patterns/512.png");
+  background-size: contain;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.3968253968), inset 0 0 0 1px rgba(255, 255, 255, 0.2380952381);
   font-size: 45px;
 }
@@ -384,7 +397,9 @@ hr {
 }
 .tile.tile-1024 {
   color: #f9f6f2;
-  background: #940000;
+  /* background: #940000; */
+  background-image: url("./patterns/1024.png");
+  background-size: contain;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.4761904762), inset 0 0 0 1px rgba(255, 255, 255, 0.2857142857);
   font-size: 35px;
 }
@@ -395,7 +410,9 @@ hr {
 }
 .tile.tile-2048 {
   color: #f9f6f2;
-  background: #dfe218;
+  /* background: #dfe218; */
+  background-image: url("./patterns/2048.png");
+  background-size: contain;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.5555555556), inset 0 0 0 1px rgba(255, 255, 255, 0.3333333333);
   font-size: 35px;
 }
