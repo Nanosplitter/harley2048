@@ -146,7 +146,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #bbada0;
+  background: #e9aebb;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -182,7 +182,7 @@ hr {
 }
 .game-container .game-message a {
   display: inline-block;
-  background: #8f7a66;
+  background: #e9aebb;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
