@@ -54,7 +54,7 @@ h1.title {
 .score-container {
   position: relative;
   float: right;
-  background: #bbada0;
+  background: #e9aebb;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -74,7 +74,7 @@ h1.title {
   font-size: 13px;
   line-height: 13px;
   text-align: center;
-  color: #eee4da;
+  color: #f9f6f2;
 }
 .score-container .score-addition {
   position: absolute;
@@ -547,7 +547,7 @@ hr {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    background: #bbada0;
+    background: #e9aebb;
     border-radius: 6px;
     width: 500px;
     height: 500px;
@@ -583,7 +583,7 @@ hr {
   }
   .game-container .game-message a {
     display: inline-block;
-    background: #8f7a66;
+    background: #e9aebb;
     border-radius: 3px;
     padding: 0 20px;
     text-decoration: none;
