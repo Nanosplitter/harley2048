@@ -498,7 +498,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var gestures = [Hammer.DIRECTION_UP, Hammer.DIRECTION_RIGHT,
                     Hammer.DIRECTION_DOWN, Hammer.DIRECTION_LEFT];
   
-    var gameContainer = document.getElementsByClassName("game-container")[0];
+    var gameContainer = document.getElementsByClassName("whole-page")[0];
     var handler       = Hammer(gameContainer, {
       drag_block_horizontal: true,
       drag_block_vertical: true
