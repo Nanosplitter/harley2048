@@ -411,7 +411,7 @@ hr {
   }
 }
 .tile.tile-2048 {
-  color: #f9f6f2;
+  /* color: #f9f6f2; */
   /* background: #dfe218; */
   background-image: url("./patterns/2048.png");
   background-size: contain;
